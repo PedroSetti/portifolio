@@ -71,6 +71,162 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Menu Projects */
+
+.link {
+	position: relative;
+	color: #333;
+	text-decoration: none;
+	font-size: 20px;
+  }
+  .link1:hover::before{
+	content: "";
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 40%;
+	height: 50%;
+	background-image: url('../../images/imagensMenu/LixeiraPub.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 999;
+  }
+  .link2:hover::before{
+	content: "";
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 40%;
+	height: 50%;
+	background-image: url('../../images/imagensMenu/chalehotel.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 999;
+  }
+
+  .link3:hover::before{
+	content: "";
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 40%;
+	height: 50%;
+	background-image: url('../../images/imagensMenu/anabella.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 999;
+  }
+
+  .link4:hover::before{
+	content: "";
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 40%;
+	height: 50%;
+	background-image: url('../../images/imagensMenu/paralax.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 999;
+  }
+
+  .link5:hover::before{
+	content: "";
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 40%;
+	height: 50%;
+	background-image: url('../../images/imagensMenu/museu.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 999;
+  }
+
+  .link6:hover::before{
+	content: "";
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 40%;
+	height: 50%;
+	background-image: url('../../images/imagensMenu/cegap.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 999;
+  }
+
+  .link7:hover::before{
+	content: "";
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 40%;
+	height: 50%;
+	background-image: url('../../images/imagensMenu/calculadora.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 999;
+  }
+
+  .link8:hover::before{
+	content: "";
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 40%;
+	height: 50%;
+	background-image: url('../../images/imagensMenu/bloconotas.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 999;
+  }
+
+  .link9:hover::before{
+	content: "";
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 40%;
+	height: 50%;
+	background-image: url('../../images/imagensMenu/imccalc.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 999;
+  }
+
+  .link0:hover::before{
+	content: "";
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 40%;
+	height: 50%;
+	background-image: url('../../images/imagensMenu/paineladmin.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 999;
+  }
 /* Basic */
 
 	html {
@@ -1512,9 +1668,11 @@ input, select, textarea {
 		}
 
 		.image img {
-			display: block;
+			display: flex;
 			width: 280px;
 			padding: 0.5em;
+			align-items: center;
+			
 		}
 
 		.image.fit {
@@ -1538,8 +1696,13 @@ input, select, textarea {
 			padding-left: 4px;
 			width: 100%;
 			height: 270px;
-
+			
 		}
+
+		.image.zm img {
+			margin: 0 auto;
+			}
+
 
 	.image.fla{
 		display: block;
