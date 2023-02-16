@@ -73,12 +73,7 @@ input, select, textarea {
 
 /* Menu Projects */
 
-.link {
-	position: relative;
-	color: #333;
-	text-decoration: none;
-	font-size: 20px;
-  }
+
   .link1:hover::before{
 	content: "";
 	display: flex;
@@ -381,7 +376,7 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
-    padding: 0;
+    	padding: 0;
 		max-width: 100%;
 		width: 60em;
 
