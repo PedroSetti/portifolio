@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="imagens/contato.png">
+    <title>CE Gastão Pereira</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- nav -->
+        <nav>
+            <div class="logo">
+                <a href="index.html">CE GASTÃO PEREIRA</a>
+            </div>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="evan.html">Evangelho</a></li>
+                <li><a href="medium.html">Mediunidade</a></li>
+                <li><a href="prog.html">Programação</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <div class="menu-icon">
+                <img src="imagens/menu.png">
+            </div>
+        </nav>
+        <!-- end nav -->
+        <main class="contato-position">
+            <section class="contato">
+                <h2>Contato</h2>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <label>Nome</label>
+                    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+                    <label>Mensagem</label>
+                    <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                    <input type="hidden" name="accessKey" value="b6b60e0e-5335-4272-a83d-eac37d477c79">
+                    <input type="hidden" name="redirectTo" value="https://cegastaopereira.netlify.app/tanks.html">
+                </form>
+            </section>
+            <div class="img-bx">
+                <img class="filtro" src="imagens/cont.png">
+            </div>
+        </main>
+  
+    </div>
+   
+    <script src="main.js"></script>
+</body>
+</html>
