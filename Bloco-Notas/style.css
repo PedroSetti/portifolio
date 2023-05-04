@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: linear-gradient(to left, red, black);
+    background: linear-gradient(to left, lightblue, lightgreen);
     font-family: "Courier New", Courier, monospace;
 }
 
@@ -32,7 +32,7 @@ body {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
     font-size: 18px;
     height: 200px;
-    color: darkgray;
+    color: black;
     border: none;
     outline: none;
     background: rgba(255, 255, 255, 0.1);
