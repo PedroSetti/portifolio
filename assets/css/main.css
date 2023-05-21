@@ -223,7 +223,20 @@ input, select, textarea {
 	z-index: 999;
   }
 
-  
+  .link01:hover::before{
+	content: "";
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 40%;
+	height: 50%;
+	background-image: url('../../images/imagensMenu/CWB.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 999;
+  }
 /* Basic */
 
 	html {
