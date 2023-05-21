@@ -223,7 +223,7 @@ input, select, textarea {
 	z-index: 999;
   }
 
-  .link01:hover::before{
+  .linkk1:hover::before{
 	content: "";
 	display: flex;
 	position: fixed;
