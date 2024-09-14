@@ -102,9 +102,9 @@ h1{
     font-size: 3.5em;
 }
 
-h1:hover{
+/* h1:hover{
     font-size: 4.5em ;
-}
+} */
 
 h2{
 
@@ -155,11 +155,7 @@ img.imgprincipal{
     float: left;
 }
 
-.postagem{
-    padding: 20px;
-    margin-bottom: 20px;
-    background: transparent;
-}
+
 
 .conteudo-lateral{
     background: white url(../imagens/conteudol1.jpg);
@@ -184,6 +180,8 @@ img.imgprincipal{
     text-align: center;
     padding: 15px;
     background: transparent;
+    display: flex;
+    width: 500px;
     
 }
 
@@ -192,6 +190,7 @@ img.imgprincipal{
     text-align: center;
     padding: 1em 0 0 0;
     font-size: 0.75em;
+    margin: 100px;
 }
 
     #footer a {
